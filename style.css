@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Lato, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background:blue;
+    border-radius: 8px;
+    border: 3px solid #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    transition: .6s;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.header-block {
+    background: fixed url("https://cdnn21.img.ria.ru/images/07e4/03/04/1568160359_0:84:2000:1209_1920x0_80_0_0_618948b655d3a797d78a786cb58b9476.jpg")center/cover no-repeat;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+}
+.header-logo {
+    position: absolute;
+    height: 68px;
+    left:80px;
+    top: 70px ;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0.3px;
+    color:  green;
+}
+.header-logo-1 {
+    position: absolute;
+    height: 68px;
+    left:180px;
+    top: 125px ;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 0.3px;
+    color:  green;
+}
+.header-logo-2 {
+     position: absolute;
+     height: 68px;
+     left:250px;
+     top: 182px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 55px;
+     line-height: 55px;
+     letter-spacing: 0.3px;
+     color:  green;
+ }
+.header-logo-3 {
+     position: absolute;
+     height: 68px;
+     left:50px;
+     top: 400px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:  #5F4D5D;
+ }
+.header-logo-4 {
+     position: absolute;
+     height: 68px;
+     left:80px;
+     top: 290px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 50px;
+     line-height: 50px;
+     letter-spacing: 0.3px;
+     color:  deepskyblue;
+ }
+.header-logo-5 {
+     position: absolute;
+     height: 68px;
+     left:80px;
+     top: 380px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:   deepskyblue;
+ }
+.header-logo-6 {
+     position: absolute;
+     height: 68px;
+     left:80px;
+     top: 440px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:   deepskyblue;
+ }
+.header-logo-7 {
+     position: absolute;
+     height: 68px;
+     left:80px;
+     top:500px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color: deepskyblue;
+ }
+.header-logo-8 {
+     position: absolute;
+     height: 68px;
+     left:215px;
+     top:560px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:  red;
+ }
+.header-logo-9 {
+     position: absolute;
+     height: 68px;
+     left:60px;
+     top:650px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:  red;
+ }
+.header-logo-10{
+     position: absolute;
+     height: 68px;
+     left:90px;
+     top:800px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 40px;
+     line-height: 40px;
+     letter-spacing: 0.3px;
+     color:  lawngreen;
+ }
+.header-logo-11{
+     position: absolute;
+     height: 68px;
+     left:1000px;
+     top:100px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 100px;
+     line-height: 100px;
+     letter-spacing: 0.3px;
+     color: black;
+ }.header-logo-12{
+     position: absolute;
+     height: 68px;
+     left:200px;
+     top:20px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 60px;
+     line-height: 60px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-logo-13{
+     position: absolute;
+     height: 68px;
+     left:700px;
+     top:380px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 80px;
+     line-height: 80px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-logo-14{
+     position: absolute;
+     height: 68px;
+     left:950px;
+     top:600px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 100px;
+     line-height: 100px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-logo-15{
+     position: absolute;
+     height: 68px;
+     left:600px;
+     top:800px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 100px;
+     line-height: 100px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-logo-16{
+     position: absolute;
+     height: 68px;
+     left:150px;
+     top:870px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 80px;
+     line-height: 80px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-logo-17{
+     position: absolute;
+     height: 68px;
+     left:590px;
+     top:30px ;
+     font-family: 'Cormorant Garamond';
+     font-style: normal;
+     font-size: 80px;
+     line-height: 80px;
+     letter-spacing: 0.3px;
+     color: black;
+ }
+.header-menu{
+    padding-top: 900px;
+    padding-left: 1160px;
+}
+.header-link {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 3.3px;
+}
+.header-menu-1{
+    position: absolute;
+    top: 870px;
+    left: 1160px;
+}
+.header-menu-2{
+    position: absolute;
+    top: 870px;
+    left: 1440px;
+}
+.header-menu-3{
+    position: absolute;
+    top: 870px;
+    left: 1697px;
+}
+.header-link-1 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 5.3px;
+}
+.header-link-2 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 5.3px;
+}
+.header-link-3 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 5.3px;
+}
+.header-menu-4{
+    padding-top: 900px;
+    padding-left: 1100px;
+}
+.header-menu-5{
+    padding-top: 900px;
+    padding-left:45px;
+}
+.header-menu-6{
+    padding-top: 900px;
+    padding-left: 45px;
+}
+.header-link-4 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 3.3px;
+}
+.header-link-5 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 3.3px;
+}
+.header-link-6 {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 3.3px;
+}
+
+.header-link:hover{
+    font-size: 20px;
+    transition: 0.1s ease-in-out;
+}
+.header-title {
+    position: absolute;
+    top: 872px;
+    left: 1040px;
+}
+.header-img-1 {
+    width: 50px;
+    height: 50px;
+}
+.header-title-1 {
+    position: absolute;
+    top: 874px;
+    left: 1344px;
+}
+.header-title-2 {
+    position: absolute;
+    top: 874px;
+    left: 1600px;
+}
